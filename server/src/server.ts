@@ -15,10 +15,8 @@ app.get('/productos', (req, res) => {
     });
 });
 
-// Serve static files from the client dist directory
-// Use path.resolve for better cross-platform compatibility
-// Assuming structure: root/server/src/server.ts and root/client/dist
-const distPath = path.resolve(__dirname, "../../client/dist");
+// Serve static files from the server/public directory (self-contained)
+const distPath = path.resolve(__dirname, "../public");
 console.log("📂 Current __dirname:", __dirname);
 console.log("📂 Target distPath:", distPath);
 console.log("📂 Exists?", fs.existsSync(distPath));
