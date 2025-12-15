@@ -19,7 +19,7 @@ type GameState = {
         draw: number;
     }
 }
-const API_URL = " http://0.0.0.0:3000";
+const API_URL = import.meta.env.MODE === "production" ? "" : "http://0.0.0.0:3000";
 //Definimos la URL del backend
 
 //Inicializamos el estado vacio 
