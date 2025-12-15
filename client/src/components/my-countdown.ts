@@ -40,7 +40,7 @@ export function initCountdown(){
                     font-family: var(--font, sans-serif);
                     font-size: 100px;
                     font-weight: bold;
-                    color: white; /* Asumiendo tema oscuro */
+                    color: #000;
                 }
             </style>
             <div class="countdown-container">
