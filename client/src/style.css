@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spline+Sans:wght@300..700&display=swap');
+
+body {
+    /* Reseteamos el margen que el navegador añade por defecto para eliminar los bordes blancos */
+    margin: 0;
+    /* Evitamos el scroll horizonta y vergical que causa las líneas blancas a los lados */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+:root{
+    --font: 'Roboto', sans-serif;
+    --color-principal: #fff;
+    --color-B:#135bec;
+    --color-N:#1a1a1a;
+}

@@ -6,10 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "build:move": "tsc && vite build && rm -rf ../server/public && mkdir -p ../server/public && cp -R dist/* ../server/public",
     "preview": "vite preview"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "firebase": "^12.6.0"
   }
 }
