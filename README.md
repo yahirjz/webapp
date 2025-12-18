@@ -1,1 +1,1 @@
-https://webapp-production-1c88.up.railway.app/result
+https://webapp-production-1c88.up.railway.app/
